@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Секция с фото */
+.profile-section {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    border-bottom: 1px solid #eaeaea;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+.profile-section h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.contract {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+/* Секция с текстом */
+.story-section {
+    padding: 30px 20px;
+}
+
+    .story-section h2, .donation-section h2 {
+        font-size: 20px;
+        color: #2980b9;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .story-section p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+/* Секция с реквизитами */
+.donation-section {
+    padding: 30px 20px;
+    background-color: #fdfdfd;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+}
+
+    .donation-section p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+.donate-button {
+    display: inline-block;
+    background-color: #27ae60;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 350px;
+}
+
+    .donate-button:hover {
+        background-color: #219653;
+        transform: translateY(-2px);
+    }
+
+.qr-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+.qr-text {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #95a5a6;
+    border-top: 1px solid #eaeaea;
+}
